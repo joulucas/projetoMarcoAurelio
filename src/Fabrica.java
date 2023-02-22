@@ -7,13 +7,10 @@ public class Fabrica {
         carro1.setPlaca("DGT4058");
         carro1.setModelo("Civic");
         carro1.setCor("Cinza");
-        carro1.setLigado(false);
+        carro1.setLigado(true);
+        carro1.setMotivmento(true);
         carro1.setAberto(true);
         carro1.setTetoSolar(true);
-
-        carro1.ligar();
-        carro1.mover();
-        carro1.parar();
 
     }
 
